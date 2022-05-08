@@ -54,34 +54,34 @@ public class Main {
         ////////////////
 
         // Excepció quan reassignes DNI
-        // try {        
-        //     pr.assignarDni("9696");
-        // } catch (Exception e) {
-        //     e.printStackTrace();
-        // }
+        try {        
+            pr.assignarDni("9696");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        // // Excepció quan la nota no es adequada
-        // try {        
-        //     es.posarNota(15.7);
-        // } catch (Exception e) {
-        //     e.printStackTrace();
-        // }
+        // Excepció quan la nota no es adequada
+        try {        
+            es.posarNota(15.7);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        // // Excepció quan sou no es adequat
-        // try {        
-        //     pr.canviarSou(4000);
-        // } catch (Exception e) {
-        //     e.printStackTrace();
-        // }
+        // Excepció quan sou no es adequat
+        try {        
+            pr.canviarSou(4000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        // // Excepció quan falta nom
-        // try {        
-        //     Estudiant es2 = new Estudiant();
-        //     es2.assignarDni("5050");
-        //     es2.posarNota(8.3);
-        //     System.out.println(es2.obtenirDades());
-        // } catch (Exception e) {
-        //     e.printStackTrace();
-        // }
+        // Excepció quan falta nom
+        try {        
+            Estudiant es2 = new Estudiant();
+            es2.assignarDni("5050");
+            es2.posarNota(8.3);
+            System.out.println(es2.obtenirDades());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
