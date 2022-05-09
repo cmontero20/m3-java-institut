@@ -76,10 +76,10 @@ public class Main {
 
         // Excepció quan falta nom
         try {        
-            Estudiant es2 = new Estudiant();
-            es2.assignarDni("5050");
-            es2.posarNota(8.3);
-            System.out.println(es2.obtenirDades());
+            Estudiant es3 = new Estudiant();
+            es3.assignarDni("5050");
+            es3.posarNota(8.3);
+            System.out.println(es3.obtenirDades());
         } catch (Exception e) {
             e.printStackTrace();
         }
